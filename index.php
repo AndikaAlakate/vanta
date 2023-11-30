@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="./pic/logo-web/Black Pink Bold Elegant Monogram Personal Brand Logo.png">
 </head>
 
 <body>
@@ -28,13 +29,13 @@
                         <a class="nav-link active" href="./index.php">Beranda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Tentang Sekolah</a>
+                        <a class="nav-link active" href="#">Novel</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Berita</a>
+                        <a class="nav-link active" href="#">Kategori</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#galeri">Galeri</a>
+                        <a class="nav-link active" href="#">Penulis</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
