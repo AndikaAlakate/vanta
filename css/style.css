@@ -1,0 +1,19 @@
+.bg-color {
+    background-color: rgb(0, 213, 255);
+}
+
+.text-color {
+    color: #7c0e0d;
+}
+
+.img-filter {
+    filter: brightness(0.8);
+}
+
+.bg-gray {
+    background-color: #f7f7f7;
+}
+
+.footer {
+    height: 45px;
+}

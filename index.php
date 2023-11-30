@@ -7,11 +7,57 @@
     <title>VantaTranslation - Novel Indo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <h1>Hello, world!</h1>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top shadow bg-color">
+        <div class="container">
 
+            <a class="navbar-brand" href="#" data-tilt> <img src="images/logo.png"
+                    class="d-inline-block align-text-middle me-2" style="width: 40px;"><span class="text-color">VantaBlack Translation - Novel Indo</span></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./index.php">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Tentang Sekolah</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Berita</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#galeri">Galeri</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Profil
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="profil-guru.php">Guru</a></li>
+                            <li><a class="dropdown-item" href="#">Siswa</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#kontak">Hubungi Kami</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="http://localhost/ws_alakate/admin/" type="button"
+                            class="ms-2 btn btn-outline-warning">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
