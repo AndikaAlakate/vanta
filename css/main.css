@@ -308,6 +308,12 @@ body.dark-mode .footer a:hover {
     .card-img {
         max-height: 100%; /* Sesuaikan tinggi sesuai kebutuhan */
     }
+
+    .card {
+        max-width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 /* Media Query untuk lebar layar antara 577px dan 767px */
