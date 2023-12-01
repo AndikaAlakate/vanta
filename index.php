@@ -23,7 +23,7 @@
 
             <a class="navbar-brand" href="#" data-tilt> <img
                     src="./pic/logo-web/Black Pink Bold Elegant Monogram Personal Brand Logo.png"
-                    class="d-inline-block align-text-middle me-2 rounded-3" style="width: 40px;"><span>VantaBlack
+                    class="d-inline-block align-text-middle me-2 rounded-3" style="width: 40px;"><span>Vanta
                     Translation</span></a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -113,45 +113,48 @@
     <!-- End Heroes Section -->
 
 
-    <!-- Konten VantaBlack Translation - Novel Indo -->
+    <!-- Konten Vanta Translation - Novel Indo -->
     <section class="container mt-5">
         <div class="row row-cols-1 md-5">
             <!-- Sidebar Kiri -->
             <div class="col-md-3">
                 <!-- Isi dengan widget atau konten sidebar kiri -->
-                <div class="card-sb">
+                <div class="card-sb hidden">
                     <div class="card-body shadow rounded-4">
                         <h5 class="card-title p-3">Chat</h5>
                         <script id="cid0020000362407087920" data-cfasync="false" async
                             src="//st.chatango.com/js/gz/emb.js" style="width: 100%;height: 100%;">{ "handle": "vantatranslation", "arch": "js", "styles": { "a": "0084EF", "b": 100, "c": "FFFFFF", "d": "FFFFFF", "k": "0084EF", "l": "0084EF", "m": "0084EF", "n": "FFFFFF", "p": "10", "q": "0084EF", "r": 100, "cnrs": "0.35", "fwtickm": 1 } }
-                        </script>
+                            </script>
                     </div>
                 </div>
             </div>
             <div class="col-md-6">
-                <h2>Tentang VantaBlack Translation - Novel Indo</h2>
-                <p>VantaBlack Translation - Novel Indo adalah platform penerjemahan novel secara daring yang
-                    berkomitmen untuk menyediakan pengalaman membaca yang unik bagi para pembaca. Berlokasi di dunia
-                    maya, VantaBlack Translation menyajikan berbagai koleksi novel terjemahan untuk memenuhi selera
-                    pembaca dari berbagai genre.</p>
-                <p>Koleksi novel kami melibatkan berbagai aliran cerita, mulai dari cerita klasik hingga yang
-                    kontemporer, fiksi dan non-fiksi, dengan tujuan memberikan pengalaman membaca yang mendalam dan
-                    memikat bagi pengguna kami.</p>
-                <h2>Fasilitas VantaBlack Translation</h2>
-                <p>VantaBlack Translation - Novel Indo hanya dapat diakses secara daring, memberikan kemudahan akses
-                    bagi para pembaca di mana saja dan kapan saja. Beberapa fasilitas yang kami sediakan antara lain:
-                </p>
-                <ul>
-                    <li>Akses online ke koleksi novel terjemahan</li>
-                    <li>Pencarian cerita berdasarkan genre dan penulis</li>
-                    <li>Kemampuan untuk menyimpan dan melanjutkan membaca dari berbagai perangkat</li>
-                    <li>Forum diskusi untuk berbagi pendapat dan pengalaman</li>
-                    <li>Pilihan mode baca yang disesuaikan</li>
-                </ul>
-                <h2>Informasi Tambahan</h2>
-                <p>VantaBlack Translation - Novel Indo beroperasi secara penuh secara daring dan tidak menyediakan
-                    layanan luring (offline). Pengguna dapat menikmati layanan kami kapan saja dengan terhubung ke
-                    internet.</p>
+                <div class="content hidden">
+                    <h2>Tentang Vanta Translation - Novel Indo</h2>
+                    <p>Vanta Translation - Novel Indo adalah platform penerjemahan novel secara daring yang
+                        berkomitmen untuk menyediakan pengalaman membaca yang unik bagi para pembaca. Berlokasi di dunia
+                        maya, Vanta Translation menyajikan berbagai koleksi novel terjemahan untuk memenuhi selera
+                        pembaca dari berbagai genre.</p>
+                    <p>Koleksi novel kami melibatkan berbagai aliran cerita, mulai dari cerita klasik hingga yang
+                        kontemporer, fiksi dan non-fiksi, dengan tujuan memberikan pengalaman membaca yang mendalam dan
+                        memikat bagi pengguna kami.</p>
+                    <h2>Fasilitas Vanta Translation</h2>
+                    <p>Vanta Translation - Novel Indo hanya dapat diakses secara daring, memberikan kemudahan akses
+                        bagi para pembaca di mana saja dan kapan saja. Beberapa fasilitas yang kami sediakan antara
+                        lain:
+                    </p>
+                    <ul>
+                        <li>Akses online ke koleksi novel terjemahan</li>
+                        <li>Pencarian cerita berdasarkan genre dan penulis</li>
+                        <li>Kemampuan untuk menyimpan dan melanjutkan membaca dari berbagai perangkat</li>
+                        <li>Forum diskusi untuk berbagi pendapat dan pengalaman</li>
+                        <li>Pilihan mode baca yang disesuaikan</li>
+                    </ul>
+                    <h2>Informasi Tambahan</h2>
+                    <p>Vanta Translation - Novel Indo beroperasi secara penuh secara daring dan tidak menyediakan
+                        layanan luring (offline). Pengguna dapat menikmati layanan kami kapan saja dengan terhubung ke
+                        internet.</p>
+                </div>
             </div>
             <!-- Sidebar Kanan -->
             <div class="col-md-3">
