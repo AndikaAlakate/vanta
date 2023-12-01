@@ -1,0 +1,346 @@
+/* Tambahkan CSS untuk mengatur tampilan responsive dan animasi */
+body {
+    background-color: #f7f7f7;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    /* Tambahkan properti transition */
+}
+
+/* Ganti warna latar belakang dan warna thumb scrollbar */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #0059ff;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #0e3682;
+}
+
+.btn-primary {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-primary:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+/* Buku Unggulan */
+/* .book-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+} */
+.card{
+    transition: .2s;
+    cursor: pointer;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Buku Unggulan */
+.card-img {
+    /* height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-img img {
+    width: 100%;
+    height: 100%;
+    /* height: auto; */
+    /* Menghapus tinggi maksimum untuk mempertahankan responsivitas */
+    object-fit: cover;
+}
+
+/* .book-info {
+    text-align: center;
+    padding: 10px;
+} */
+
+/* Animasi tambahan */
+h1 {
+    animation: fadeInDown 1.5s ease-out;
+}
+
+.btn-primary {
+    animation: bounceIn 1s ease-in-out;
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes bounceIn {
+    0% {
+        transform: scale(0.7);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Video Promosi Perpustakaan */
+.embed-responsive {
+    margin-top: 20px;
+}
+
+/* Footer */
+.footer {
+    transition: background-color 0.5s ease;
+    /* Tambahkan properti transition */
+    background-color: #343a40;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer h5 {
+    transition: color 0.5s ease;
+    /* Tambahkan properti transition */
+    color: #fff;
+    font-weight: bold;
+}
+
+.footer p {
+    transition: color 0.5s ease;
+    /* Tambahkan properti transition */
+    color: #d9d9d9;
+}
+
+.footer a {
+    transition: color 0.5s ease;
+    /* Tambahkan properti transition */
+    color: #d9d9d9;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+.footer .btn-primary {
+    margin: 4px;
+}
+
+.footer .form-group {
+    margin-bottom: 0;
+}
+
+.footer .form-inline .form-control {
+    width: 220px;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.dark-mode-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+}
+
+.dark-mode-toggle .btn .desktop-emoji {
+    font-size: 20px;
+}
+
+body.dark-mode .footer {
+    background-color: #111;
+}
+
+body.dark-mode .footer h5 {
+    color: #fff;
+}
+
+body.dark-mode .footer p {
+    color: #bfbfbf;
+}
+
+body.dark-mode .footer a {
+    color: #bfbfbf;
+}
+
+body.dark-mode .footer a:hover {
+    color: #fff;
+}
+
+/* Responsif pada perangkat mobile */
+@media (max-width: 767.98px) {
+
+    /* Ganti warna latar belakang dan warna thumb scrollbar */
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background-color: #0059ff;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background-color: #0e3682;
+    }
+
+    .footer h5,
+    .footer p,
+    .footer a {
+        text-align: center;
+    }
+
+    .footer .btn-primary {
+        display: block;
+        margin: 8px auto;
+    }
+
+    .footer .form-inline .form-control {
+        width: 100%;
+    }
+
+    .footer .form-inline .btn-primary {
+        margin-top: 8px;
+        width: 100%;
+    }
+
+    /* Perbaikan form pada web PC */
+    .footer .form-group {
+        text-align: center;
+    }
+
+    .footer .form-group input,
+    .footer .form-group p,
+    .footer .form-group button {
+        display: inline-block;
+        margin: 4px;
+    }
+
+    .footer .form-group button {
+        width: auto;
+    }
+
+    /* Floating Dark Mode Button */
+    .dark-mode-toggle {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 9999;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    /* Menambahkan animasi pergantian emoji */
+    .dark-mode-toggle .btn .desktop-emoji {
+        font-size: 15px;
+        display: inline-block;
+        transition: transform 0.3s ease-in-out, color 1s ease-in-out;
+    }
+
+    .dark-mode-toggle .btn {
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dark-mode-toggle .desktop-emoji:before {
+        font-size: 24px;
+    }
+
+    /* Floating Dark Mode Button Animation */
+    .dark-mode-toggle:hover {
+        transform: scale(1.1);
+    }
+
+    .dark-mode-toggle .desktop-emoji:before {
+        font-size: 20px;
+    }
+}
+
+/* Back to Top Button Styles */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 999;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.back-to-top .btn {
+    font-size: 24px;
+}
+
+.bg-color {
+    background-color: #0059ff;
+}
+
+/* Media Query untuk lebar layar kurang dari atau sama dengan 576px */
+@media only screen and (max-width: 576px) {
+    .card-img {
+        max-height: 100%; /* Sesuaikan tinggi sesuai kebutuhan */
+    }
+}
+
+/* Media Query untuk lebar layar antara 577px dan 767px */
+@media only screen and (min-width: 577px) and (max-width: 767px) {
+    .card-img {
+        max-height: 200px; /* Sesuaikan tinggi sesuai kebutuhan */
+    }
+}
+
+/* Media Query untuk lebar layar antara 768px dan 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .card-img {
+        max-height: 300px; /* Sesuaikan tinggi sesuai kebutuhan */
+    }
+}
+
+/* Media Query untuk lebar layar antara 992px dan 1199px */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .card-img {
+        max-height: 400px; /* Sesuaikan tinggi sesuai kebutuhan */
+    }
+}
+
+/* Media Query untuk lebar layar antara 1200px dan 1400px */
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    .card-img {
+        max-height: 500px; /* Sesuaikan tinggi sesuai kebutuhan */
+    }
+}
+
+/* Media Query untuk lebar layar minimum 1401px */
+@media only screen and (min-width: 1401px) {
+    .card-img {
+        max-height: 550px; /* Sesuaikan tinggi sesuai kebutuhan */
+    }
+}
