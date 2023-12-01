@@ -3,10 +3,14 @@
 <!-- Head -->
 
 <head>
-    <title>VantaBlack Translation - Novel Indo</title>
+    <title>Vanta Translation - Novel Indo</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./pic/logo-web/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./pic/logo-web/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./pic/logo-web/favicon-16x16.png">
+    <link rel="manifest" href="./pic/logo-web/site.webmanifest">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
@@ -17,8 +21,10 @@
     <nav class="navbar navbar-expand-lg navbar-dark sticky-top shadow bg-color">
         <div class="container">
 
-            <a class="navbar-brand" href="#" data-tilt> <img src="./pic/logo-web/Black Pink Bold Elegant Monogram Personal Brand Logo.png"
-                    class="d-inline-block align-text-middle me-2 rounded-3" style="width: 40px;"><span>VantaBlack Translation</span></a>
+            <a class="navbar-brand" href="#" data-tilt> <img
+                    src="./pic/logo-web/Black Pink Bold Elegant Monogram Personal Brand Logo.png"
+                    class="d-inline-block align-text-middle me-2 rounded-3" style="width: 40px;"><span>VantaBlack
+                    Translation</span></a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,8 +58,7 @@
                         <a class="nav-link active" href="#">Hubungi Kami</a>
                     </li>
                     <li class="nav-item">
-                        <a href="./login/" type="button"
-                            class="ms-2 btn btn-outline-warning">Login</a>
+                        <a href="./login/" type="button" class="ms-2 btn btn-outline-warning">Login</a>
                     </li>
                 </ul>
             </div>
@@ -111,7 +116,19 @@
     <!-- Konten VantaBlack Translation - Novel Indo -->
     <section class="container mt-5">
         <div class="row row-cols-1 md-5">
-            <div class="col-md-8 offset-md-2">
+            <!-- Sidebar Kiri -->
+            <div class="col-md-3">
+                <!-- Isi dengan widget atau konten sidebar kiri -->
+                <div class="card-sb">
+                    <div class="card-body shadow rounded-4">
+                        <h5 class="card-title p-3">Chat</h5>
+                        <script id="cid0020000362407087920" data-cfasync="false" async
+                            src="//st.chatango.com/js/gz/emb.js" style="width: 100%;height: 100%;">{ "handle": "vantatranslation", "arch": "js", "styles": { "a": "0084EF", "b": 100, "c": "FFFFFF", "d": "FFFFFF", "k": "0084EF", "l": "0084EF", "m": "0084EF", "n": "FFFFFF", "p": "10", "q": "0084EF", "r": 100, "cnrs": "0.35", "fwtickm": 1 } }
+                        </script>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
                 <h2>Tentang VantaBlack Translation - Novel Indo</h2>
                 <p>VantaBlack Translation - Novel Indo adalah platform penerjemahan novel secara daring yang
                     berkomitmen untuk menyediakan pengalaman membaca yang unik bagi para pembaca. Berlokasi di dunia
@@ -120,14 +137,6 @@
                 <p>Koleksi novel kami melibatkan berbagai aliran cerita, mulai dari cerita klasik hingga yang
                     kontemporer, fiksi dan non-fiksi, dengan tujuan memberikan pengalaman membaca yang mendalam dan
                     memikat bagi pengguna kami.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Fasilitas VantaBlack Translation -->
-    <section class="container mt-5">
-        <div class="row">
-            <div class="col-md-8 offset-md-2">
                 <h2>Fasilitas VantaBlack Translation</h2>
                 <p>VantaBlack Translation - Novel Indo hanya dapat diakses secara daring, memberikan kemudahan akses
                     bagi para pembaca di mana saja dan kapan saja. Beberapa fasilitas yang kami sediakan antara lain:
@@ -139,28 +148,49 @@
                     <li>Forum diskusi untuk berbagi pendapat dan pengalaman</li>
                     <li>Pilihan mode baca yang disesuaikan</li>
                 </ul>
-            </div>
-        </div>
-    </section>
-    <!-- End Fasilitas VantaBlack Translation -->
-
-    <!-- Informasi Tambahan -->
-    <section class="container mt-5">
-        <div class="row">
-            <div class="col-md-8 offset-md-2">
                 <h2>Informasi Tambahan</h2>
                 <p>VantaBlack Translation - Novel Indo beroperasi secara penuh secara daring dan tidak menyediakan
                     layanan luring (offline). Pengguna dapat menikmati layanan kami kapan saja dengan terhubung ke
                     internet.</p>
             </div>
+            <!-- Sidebar Kanan -->
+            <div class="col-md-3">
+                <div class="card-sb">
+                    <div class="card-body shadow rounded-4">
+                        <h5 class="card-title p-3">Kategori/Genre</h5>
+                        <ul class="list-group">
+                            <li class="list-group-item"><a href="#">Romance</a></li>
+                            <li class="list-group-item"><a href="#">Action</a></li>
+                            <li class="list-group-item"><a href="#">Action</a></li>
+                            <li class="list-group-item"><a href="#">Action</a></li>
+                            <li class="list-group-item"><a href="#">Action</a></li>
+                            <li class="list-group-item"><a href="#">Action</a></li>
+                            <li class="list-group-item"><a href="#">Action</a></li>
+                            <li class="list-group-item"><a href="#">Action</a></li>
+                            <li class="list-group-item"><a href="#">Action</a></li>
+                            <li class="list-group-item"><a href="#">Action</a></li>
+                            <li class="list-group-item"><a href="#">Action</a></li>
+                            <li class="list-group-item"><a href="#">Action</a></li>
+                            <li class="list-group-item"><a href="#">Action</a></li>
+                            <li class="list-group-item"><a href="#">Action</a></li>
+                            <li class="list-group-item"><a href="#">Action</a></li>
+                            <li class="list-group-item"><a href="#">Action</a></li>
+                            <li class="list-group-item"><a href="#">Action</a></li>
+                            <li class="list-group-item"><a href="#">Action</a></li>
+                            <li class="list-group-item"><a href="#">Action</a></li>
+                            <!-- Tambahkan kategori/genre lainnya sesuai kebutuhan -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Daftar Buku Terbaru -->
-    <section id="daftar-baru">
+    <section id="daftar-baru hidden">
         <div class="container mt-5">
             <div class="row">
-                <div class="col text-center pb-4">
+                <div class="col text-center pb-4 pt-4">
                     <h2>Daftar Buku Terbaru</h2>
                 </div>
             </div>
@@ -289,7 +319,7 @@
     <!-- End Daftar Buku Terbaru -->
 
     <!-- Daftar Buku Unggulan -->
-    <section id="daftar-baru">
+    <section id="daftar-unggulan hidden">
         <div class="container mt-5">
             <div class="row">
                 <div class="col text-center pb-4">
@@ -382,9 +412,9 @@
 
 
     <!-- Kategori Buku -->
-    <div class="container mt-5">
+    <div class="container mt-5 hidden">
         <div class="row">
-            <div class="col-md-8 offset-md-2 text-center">
+            <div class="col-md-8 offset-md-2 text-center pb-4">
                 <h2>Kategori Buku</h2>
             </div>
         </div>
@@ -393,7 +423,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Kategori 1</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Jumlah Buku: 10</h6>
+                        <h6 class="card-subtitle mb-2">Jumlah Buku: 10</h6>
                     </div>
                 </div>
             </div>
@@ -401,7 +431,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Kategori 2</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Jumlah Buku: 15</h6>
+                        <h6 class="card-subtitle mb-2">Jumlah Buku: 15</h6>
                     </div>
                 </div>
             </div>
@@ -409,7 +439,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Kategori 3</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Jumlah Buku: 20</h6>
+                        <h6 class="card-subtitle mb-2">Jumlah Buku: 20</h6>
                     </div>
                 </div>
             </div>
@@ -417,7 +447,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Kategori 4</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Jumlah Buku: 12</h6>
+                        <h6 class="card-subtitle mb-2">Jumlah Buku: 12</h6>
                     </div>
                 </div>
             </div>
@@ -425,38 +455,32 @@
     </div>
     <!-- End Kategori Buku -->
 
-
-
     <!-- CTA -->
-    <div class="container mt-5">
-        <div class="row">
+    <div class="container mt-5 hidden">
+        <div class="row p-4">
             <div class="col-md-8 offset-md-2 text-center">
-                <h2>Temukan Lebih Banyak Buku Menarik di Perpustakaan Kami!</h2>
-                <p>Jangan ragu untuk mengunjungi perpustakaan kami dan temukan beragam sumber belajar yang menarik.
-                    Jadikan membaca sebagai kebiasaan dan dapatkan pengetahuan baru setiap hari!</p>
-                <a class="btn btn-primary" href="buku/">Lihat Buku</a>
+                <div class="card p-4">
+                    <h2>Temukan Lebih Banyak Novel Menarik di VantaTranslation!</h2>
+                    <p>Jangan ragu untuk menjelajahi koleksi novel terjemahan kami. Jadikan membaca sebagai kebiasaan
+                        dan
+                        temukan dunia baru melalui kata-kata!</p>
+                    <a class="btn btn-primary" href="novel/">Jelajahi Novel</a>
+                </div>
             </div>
         </div>
     </div>
     <!-- End CTA -->
 
     <!-- Footer -->
-    <footer class="footer mt-5 rounded-top-3">
+    <footer class="footer mt-5 rounded-top-4">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-3">
-                    <h5>Tentang Kami</h5>
-                    <p>Perpustakaan SMK Swasta Jambi merupakan perpustakaan modern yang berkomitmen untuk menyediakan
-                        layanan terbaik dan koleksi buku berkualitas bagi para siswa dan masyarakat.</p>
-                </div>
-                <div class="col-md-3">
-                    <h5>Alamat</h5>
-                    <p>Jl. Raya Jambi No.123, Medan</p>
-                </div>
-                <div class="col-md-3">
-                    <h5>Kontak</h5>
-                    <p>Email: perpustakaan@example.com</p>
-                    <p>Telepon: 123-456-789</p>
+                <div class="col-md-6">
+                    <h5>Tentang VantaTranslation</h5>
+                    <p>VantaTranslation adalah platform terbaik untuk menemukan dan membaca novel terjemahan dalam
+                        berbagai
+                        kategori. Kami berkomitmen untuk memberikan pengalaman membaca yang menyenangkan dan memperluas
+                        pengetahuan pembaca.</p>
                 </div>
             </div>
             <div class="row mt-3">
@@ -471,7 +495,7 @@
             <div class="row mt-3">
                 <div class="col-md-12 text-center">
                     <h5>Newsletter</h5>
-                    <p>Daftarkan email Anda untuk mendapatkan update terbaru dari perpustakaan kami.</p>
+                    <p>Daftarkan email Anda untuk mendapatkan update terbaru dari VantaTranslation.</p>
                     <form class="form-inline justify-content-center">
                         <div class="form-group" align="center">
                             <div class="input-group">
@@ -487,10 +511,8 @@
             </div>
             <div class="row mt-4">
                 <div class="col-md-12 text-center">
-                    <p>&copy; 2023 Perpustakaan SMK Swasta Jambi - Dibuat dengan <span
-                            class="text-danger">&hearts;</span> oleh <a href="https://www.contohwebsite.com"
-                            target="_blank">ContohWebsite.com</a></p>
-                    <p>Hubungi: email@example.com | Telepon: 123-456-789</p>
+                    <p>&copy; 2023 VantaTranslation - Dibuat dengan <span class="text-danger">&hearts;</span> oleh <a
+                            href="https://www.linktr.ee/Andika46710" target="_blank">Andika Alakate</a></p>
                 </div>
             </div>
         </div>
@@ -514,8 +536,12 @@
     </div>
     <!-- End Dark Mode Floating Button -->
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/beranda.js"></script>
 </body>
 

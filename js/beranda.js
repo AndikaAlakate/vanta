@@ -1,9 +1,38 @@
+document.addEventListener('DOMContentLoaded', function () {
+    // Mendapatkan semua elemen dengan class 'hidden'
+    var hiddenElements = document.querySelectorAll('.hidden');
+
+    // Fungsi untuk mengecek apakah elemen masuk ke dalam view
+    function isInView(el) {
+        var rect = el.getBoundingClientRect();
+        return (
+            rect.top >= 0 &&
+            rect.left >= 0 &&
+            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        );
+    }
+
+    // Fungsi untuk menampilkan elemen saat masuk ke dalam view
+    function showElementOnScroll() {
+        hiddenElements.forEach(function (el) {
+            if (isInView(el)) {
+                el.classList.add('visible');
+            }
+        });
+    }
+
+    // Menjalankan fungsi saat halaman dimuat dan saat discroll
+    showElementOnScroll();
+    window.addEventListener('scroll', showElementOnScroll);
+});
+
 // JavaScript untuk Dark Mode Toggle
 const darkModeToggle = document.getElementById('darkModeToggle');
 const emoji = darkModeToggle.querySelector('.desktop-emoji');
 const body = document.body;
 const footer = document.querySelector('.footer');
-const footerElements = document.querySelectorAll('.footer h5, .footer p, .footer a');
+const footerElements = document.querySelectorAll('.footer h5, .footer p, .footer a, .card');
 
 // Waktu transisi untuk pergantian warna (dalam milidetik)
 const colorTransitionDuration = 500; // Ganti sesuai keinginan Anda
