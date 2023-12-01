@@ -11,6 +11,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./pic/logo-web/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./pic/logo-web/favicon-16x16.png">
     <link rel="manifest" href="./pic/logo-web/site.webmanifest">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
@@ -119,13 +120,11 @@
             <!-- Sidebar Kiri -->
             <div class="col-md-3">
                 <!-- Isi dengan widget atau konten sidebar kiri -->
-                <div class="card-sb hidden">
+                <div class="card-sb hidden rounded-4">
                     <div class="card-body shadow rounded-4">
                         <h5 class="card-title p-3">Chat</h5>
-                        <script id="cid0020000362407087920" data-cfasync="false" async
-                            src="//st.chatango.com/js/gz/emb.js" style="width: 100%;height: 100%;">{ "handle": "vantatranslation", "arch": "js", "styles": { "a": "0084EF", "b": 100, "c": "FFFFFF", "d": "FFFFFF", "k": "0084EF", "l": "0084EF", "m": "0084EF", "n": "FFFFFF", "p": "10", "q": "0084EF", "r": 100, "cnrs": "0.35", "fwtickm": 1 } }
-                            </script>
                     </div>
+                        <!-- <script id="cid0020000362410266703" data-cfasync="false" async src="//st.chatango.com/js/gz/emb.js" style="width: 95%;height: 100%;">{"handle":"vantatranslation","arch":"js","styles":{"a":"0084EF","b":100,"c":"FFFFFF","d":"FFFFFF","k":"0084EF","l":"0084EF","m":"0084EF","n":"FFFFFF","p":"10","q":"0084EF","r":100,"cnrs":"0.35","fwtickm":1}}</script></div> -->
                 </div>
             </div>
             <div class="col-md-6">
@@ -158,8 +157,8 @@
             </div>
             <!-- Sidebar Kanan -->
             <div class="col-md-3">
-                <div class="card-sb">
-                    <div class="card-body shadow rounded-4">
+                <div class="card-sb rounded-4">
+                    <div class="card-body shadow">
                         <h5 class="card-title p-3">Kategori/Genre</h5>
                         <ul class="list-group">
                             <li class="list-group-item"><a href="#">Romance</a></li>
@@ -524,16 +523,14 @@
 
     <!-- Back to Top Button -->
     <div class="back-to-top">
-        <button class="btn btn-dark mx-auto my-auto rounded-5" id="backToTopButton"
-            style="opacity: 0; transform: translateY(100%);">
-            <span class="desktop-emoji"><i class="bi bi-arrow-up-circle"></i></span>
-        </button>
+            <i class="bi text-primary bi-arrow-up-circle-fill p-2 fs-1 mx-auto my-auto rounded-4" id="backToTopButton"
+            style="opacity: 0; transform: translateY(100%);"></i>
     </div>
     <!-- End Back to Top Button -->
 
     <!-- Dark Mode Floating Button -->
     <div class="dark-mode-toggle">
-        <button class="btn btn-dark rounded-5" id="darkModeToggle">
+        <button class="btn btn-primary rounded-5" id="darkModeToggle">
             <span class="desktop-emoji">🌙</span>
         </button>
     </div>

@@ -175,6 +175,18 @@ body.dark-mode .card {
     background-color: #111;
 }
 
+body.dark-mode .card-sb {
+    background-color: #111;
+}
+
+body.dark-mode .card-sb li {
+    background-color: #1d1c1c;
+}
+
+body.dark-mode .card-sb li a {
+    color: #ffffff;
+}
+
 body.dark-mode .footer h5 {
     color: #fff;
 }
@@ -292,7 +304,7 @@ body.dark-mode .footer a:hover {
 }
 
 .back-to-top .btn {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .bg-color {

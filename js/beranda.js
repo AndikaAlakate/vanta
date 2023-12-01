@@ -32,7 +32,7 @@ const darkModeToggle = document.getElementById('darkModeToggle');
 const emoji = darkModeToggle.querySelector('.desktop-emoji');
 const body = document.body;
 const footer = document.querySelector('.footer');
-const footerElements = document.querySelectorAll('.footer h5, .footer p, .footer a, .card');
+const footerElements = document.querySelectorAll('.footer h5, .footer p, .footer a, .card, .card-sb');
 
 // Waktu transisi untuk pergantian warna (dalam milidetik)
 const colorTransitionDuration = 500; // Ganti sesuai keinginan Anda
