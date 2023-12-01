@@ -44,6 +44,7 @@ body {
 .card{
     transition: .2s;
     cursor: pointer;
+    margin-bottom: 20px;
 }
 .card:hover {
     transform: scale(1.05);
@@ -310,7 +311,7 @@ body.dark-mode .footer a:hover {
     }
 
     .card {
-        max-width: 75%;
+        max-width: 90%;
         margin-left: auto;
         margin-right: auto;
     }
