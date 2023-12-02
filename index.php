@@ -38,7 +38,7 @@
                         <a class="nav-link active" href="./index.php">Beranda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Bukuu</a>
+                        <a class="nav-link active" href="#">Buku</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="#">Berita</a>
