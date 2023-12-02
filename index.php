@@ -533,7 +533,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <form id="loginForm">
+                    <form id="loginForm" action="" method="post">
                         <div class="mb-3">
                             <label for="typeEmailX-2" class="form-label">Email</label>
                             <div class="input-group">
@@ -577,7 +577,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <form id="registerForm">
+                    <form id="registerForm" action="" method="post">
                         <div class="mb-3">
                             <label for="registerEmail" class="form-label">Email</label>
                             <div class="input-group">
