@@ -1,0 +1,198 @@
+/* Tambahkan CSS untuk mengatur tampilan responsive dan animasi */
+body {
+    background-color: #f7f7f7;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+/* Ganti warna latar belakang dan warna thumb scrollbar */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #0059ff;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #0e3682;
+}
+
+.btn-primary {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-primary:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+/* Buku Unggulan */
+.card-sb {
+    background-color: #fff;
+}
+
+.card {
+    transition: 0.2s;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background-color: #f9fcff;
+}
+
+/* Buku Unggulan */
+.card-img {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Animasi tambahan */
+h1 {
+    animation: fadeInDown 1.5s ease-out;
+}
+
+.btn-primary {
+    animation: bounceIn 1s ease-in-out;
+}
+
+.hidden {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s, transform 2s;
+}
+
+/* Menampilkan elemen saat class 'hidden' dihapus */
+.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Video Promosi Perpustakaan */
+.embed-responsive {
+    margin-top: 20px;
+}
+
+/* Footer */
+.footer {
+    transition: background-color 0.5s ease;
+    background-color: #343a40;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer h5 {
+    transition: color 0.5s ease;
+    color: #fff;
+    font-weight: bold;
+}
+
+.footer p {
+    transition: color 0.5s ease;
+    color: #d9d9d9;
+}
+
+.footer a {
+    transition: color 0.5s ease;
+    color: #d9d9d9;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+.footer .btn-primary {
+    margin: 4px;
+}
+
+.footer .form-group {
+    margin-bottom: 0;
+}
+
+.footer .form-inline .form-control {
+    width: 220px;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.dark-mode-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+}
+
+.dark-mode-toggle .btn .desktop-emoji {
+    font-size: 20px;
+}
+
+body.dark-mode .footer {
+    background-color: #111;
+}
+
+body.dark-mode .card {
+    background-color: #111;
+}
+
+body.dark-mode .card-sb {
+    background-color: #111;
+}
+
+body.dark-mode .card-sb li {
+    background-color: #1d1c1c;
+}
+
+body.dark-mode .card-sb li a {
+    color: #ffffff;
+}
+
+body.dark-mode .footer h5 {
+    color: #fff;
+}
+
+body.dark-mode .footer p {
+    color: #bfbfbf;
+}
+
+body.dark-mode .footer a {
+    color: #bfbfbf;
+}
+
+body.dark-mode .footer a:hover {
+    color: #fff;
+}
+
+/* Back to Top Button Styles */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 999;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.back-to-top .bi {
+    font-size: 20px;
+}
+
+.bg-color {
+    background-color: #0059ff;
+}

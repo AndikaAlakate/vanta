@@ -1,0 +1,137 @@
+/* Responsif pada perangkat mobile */
+@media (max-width: 767.98px) {
+    /* Ganti warna latar belakang dan warna thumb scrollbar */
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background-color: #0059ff;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: #0e3682;
+    }
+
+    .footer h5,
+    .footer p,
+    .footer a {
+        text-align: center;
+    }
+
+    .footer .btn-primary {
+        display: block;
+        margin: 8px auto;
+    }
+
+    .footer .form-inline .form-control {
+        width: 100%;
+    }
+
+    .footer .form-inline .btn-primary {
+        margin-top: 8px;
+        width: 100%;
+    }
+
+    /* Perbaikan form pada web PC */
+    .footer .form-group {
+        text-align: center;
+    }
+
+    .footer .form-group input,
+    .footer .form-group p,
+    .footer .form-group button {
+        display: inline-block;
+        margin: 4px;
+    }
+
+    .footer .form-group button {
+        width: auto;
+    }
+
+    /* Floating Dark Mode Button */
+    .dark-mode-toggle {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 9999;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    /* Menambahkan animasi pergantian emoji */
+    .dark-mode-toggle .btn .desktop-emoji {
+        font-size: 15px;
+        display: inline-block;
+        transition: transform 0.3s ease-in-out, color 1s ease-in-out;
+    }
+
+    .dark-mode-toggle .btn {
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dark-mode-toggle .desktop-emoji:before {
+        font-size: 24px;
+    }
+
+    /* Floating Dark Mode Button Animation */
+    .dark-mode-toggle:hover {
+        transform: scale(1.1);
+    }
+
+    .dark-mode-toggle .desktop-emoji:before {
+        font-size: 20px;
+    }
+}
+
+/* Media Query untuk lebar layar kurang dari atau sama dengan 576px */
+@media only screen and (max-width: 576px) {
+    .card-img {
+        max-height: 100%;
+    }
+
+    .card {
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Media Query untuk lebar layar antara 577px dan 767px */
+@media only screen and (min-width: 577px) and (max-width: 767px) {
+    .card-img {
+        max-height: 200px;
+    }
+}
+
+/* Media Query untuk lebar layar antara 768px dan 991px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .card-img {
+        max-height: 300px;
+    }
+}
+
+/* Media Query untuk lebar layar antara 992px dan 1199px */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .card-img {
+        max-height: 400px;
+    }
+}
+
+/* Media Query untuk lebar layar antara 1200px dan 1400px */
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    .card-img {
+        max-height: 500px;
+    }
+}
+
+/* Media Query untuk lebar layar minimum 1401px */
+@media only screen and (min-width: 1401px) {
+    .card-img {
+        max-height: 550px;
+    }
+}
