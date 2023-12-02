@@ -11,6 +11,8 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./pic/logo-web/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./pic/logo-web/favicon-16x16.png">
     <link rel="manifest" href="./pic/logo-web/site.webmanifest">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -21,7 +23,6 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark sticky-top shadow bg-color">
         <div class="container">
-
             <a class="navbar-brand" href="#" data-tilt> <img
                     src="./pic/logo-web/Black Pink Bold Elegant Monogram Personal Brand Logo.png"
                     class="d-inline-block align-text-middle me-2 rounded-3" style="width: 40px;"><span>Vanta
@@ -59,7 +60,8 @@
                         <a class="nav-link active" href="#">Hubungi Kami</a>
                     </li>
                     <li class="nav-item">
-                        <a href="./login/" type="button" class="ms-2 btn btn-outline-warning">Login</a>
+                        <button class="btn btn-outline-light btn-md" type="button" data-bs-toggle="modal"
+                            data-bs-target="#loginModal">Login</button>
                     </li>
                 </ul>
             </div>
@@ -124,7 +126,7 @@
                     <div class="card-body shadow rounded-4">
                         <h5 class="card-title p-3">Chat</h5>
                     </div>
-                        <!-- <script id="cid0020000362410266703" data-cfasync="false" async src="//st.chatango.com/js/gz/emb.js" style="width: 95%;height: 100%;">{"handle":"vantatranslation","arch":"js","styles":{"a":"0084EF","b":100,"c":"FFFFFF","d":"FFFFFF","k":"0084EF","l":"0084EF","m":"0084EF","n":"FFFFFF","p":"10","q":"0084EF","r":100,"cnrs":"0.35","fwtickm":1}}</script></div> -->
+                    <!-- <script id="cid0020000362410266703" data-cfasync="false" async src="//st.chatango.com/js/gz/emb.js" style="width: 95%;height: 100%;">{"handle":"vantatranslation","arch":"js","styles":{"a":"0084EF","b":100,"c":"FFFFFF","d":"FFFFFF","k":"0084EF","l":"0084EF","m":"0084EF","n":"FFFFFF","p":"10","q":"0084EF","r":100,"cnrs":"0.35","fwtickm":1}}</script></div> -->
                 </div>
             </div>
             <div class="col-md-6">
@@ -521,9 +523,106 @@
     </footer>
     <!-- End Footer -->
 
+    <!-- Bootstrap Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Login</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="loginForm">
+                        <div class="mb-3">
+                            <label for="typeEmailX-2" class="form-label">Email</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="bi bi-envelope"></i></span>
+                                <input type="email" class="form-control" id="typeEmailX-2"
+                                    placeholder="Masukkan Email Anda ..." required />
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="typePasswordX-2" class="form-label">Password</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="bi bi-lock"></i></span>
+                                <input type="password" class="form-control" id="typePasswordX-2"
+                                    placeholder="Masukkan Password Anda ..." required />
+                            </div>
+                        </div>
+
+                        <div class="text-danger mb-3" id="loginError"></div>
+
+                        <div class="d-grid gap-2">
+                            <button type="button" class="btn btn-primary" onclick="login()">Login</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <p class="text-muted">Belum punya akun? <a href="#" data-bs-toggle="modal" data-bs-dismiss="modal"
+                            data-bs-target="#registerModal">Daftar di sini</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap Modal -->
+    <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="registerModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="registerModalLabel">Registrasi</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="registerForm">
+                        <div class="mb-3">
+                            <label for="registerEmail" class="form-label">Email</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="bi bi-envelope"></i></span>
+                                <input type="email" class="form-control" id="registerEmail"
+                                    placeholder="Masukkan Email Anda ..." required />
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="registerPassword" class="form-label">Password</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="bi bi-lock"></i></span>
+                                <input type="password" class="form-control" id="registerPassword"
+                                    placeholder="Masukkan Password Anda ..." required />
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="confirmPassword" class="form-label">Konfirmasi Password</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="bi bi-lock"></i></span>
+                                <input type="password" class="form-control" id="confirmPassword"
+                                    placeholder="Konfirmasi Password Anda ..." required />
+                            </div>
+                        </div>
+
+                        <div class="text-danger mb-3" id="registerError"></div>
+
+                        <div class="d-grid gap-2">
+                            <button type="button" class="btn btn-primary" onclick="register()">Registrasi</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <p class="text-muted">Sudah punya akun? <a href="#" data-bs-toggle="modal" data-bs-dismiss="modal"
+                            data-bs-target="#loginModal">Login di sini</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Back to Top Button -->
     <div class="back-to-top">
-            <i class="bi text-primary bi-arrow-up-circle-fill p-2 fs-1 mx-auto my-auto rounded-4" id="backToTopButton"
+        <i class="bi text-primary bi-arrow-up-circle-fill p-2 fs-1 mx-auto my-auto rounded-4" id="backToTopButton"
             style="opacity: 0; transform: translateY(100%);"></i>
     </div>
     <!-- End Back to Top Button -->
@@ -542,6 +641,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
+    <!-- jQuery -->
+    <script src='https://code.jquery.com/jquery-3.3.1.slim.min.js'></script>
     <script type="text/javascript" src="js/beranda.js"></script>
 </body>
 

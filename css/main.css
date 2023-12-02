@@ -46,11 +46,12 @@ body {
     background-color: #fff;
 }
 
-.card{
-    transition: .2s;
+.card {
+    transition: 0.2s;
     cursor: pointer;
     margin-bottom: 20px;
 }
+
 .card:hover {
     transform: scale(1.05);
 }
@@ -214,7 +215,7 @@ body.dark-mode .footer a:hover {
     ::-webkit-scrollbar-track {
         background-color: #0059ff;
     }
-    
+
     ::-webkit-scrollbar-thumb {
         background-color: #0e3682;
     }
@@ -314,7 +315,8 @@ body.dark-mode .footer a:hover {
 /* Media Query untuk lebar layar kurang dari atau sama dengan 576px */
 @media only screen and (max-width: 576px) {
     .card-img {
-        max-height: 100%; /* Sesuaikan tinggi sesuai kebutuhan */
+        max-height: 100%;
+        /* Sesuaikan tinggi sesuai kebutuhan */
     }
 
     .card {
@@ -327,34 +329,39 @@ body.dark-mode .footer a:hover {
 /* Media Query untuk lebar layar antara 577px dan 767px */
 @media only screen and (min-width: 577px) and (max-width: 767px) {
     .card-img {
-        max-height: 200px; /* Sesuaikan tinggi sesuai kebutuhan */
+        max-height: 200px;
+        /* Sesuaikan tinggi sesuai kebutuhan */
     }
 }
 
 /* Media Query untuk lebar layar antara 768px dan 991px */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .card-img {
-        max-height: 300px; /* Sesuaikan tinggi sesuai kebutuhan */
+        max-height: 300px;
+        /* Sesuaikan tinggi sesuai kebutuhan */
     }
 }
 
 /* Media Query untuk lebar layar antara 992px dan 1199px */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .card-img {
-        max-height: 400px; /* Sesuaikan tinggi sesuai kebutuhan */
+        max-height: 400px;
+        /* Sesuaikan tinggi sesuai kebutuhan */
     }
 }
 
 /* Media Query untuk lebar layar antara 1200px dan 1400px */
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
     .card-img {
-        max-height: 500px; /* Sesuaikan tinggi sesuai kebutuhan */
+        max-height: 500px;
+        /* Sesuaikan tinggi sesuai kebutuhan */
     }
 }
 
 /* Media Query untuk lebar layar minimum 1401px */
 @media only screen and (min-width: 1401px) {
     .card-img {
-        max-height: 550px; /* Sesuaikan tinggi sesuai kebutuhan */
+        max-height: 550px;
+        /* Sesuaikan tinggi sesuai kebutuhan */
     }
 }
