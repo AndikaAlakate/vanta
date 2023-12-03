@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Kessoku Band | Dashboard</title>
+  <title>VANTA | Dashboard</title>
 
   <!-- Head -->
   <?php include 'head.php'; ?>

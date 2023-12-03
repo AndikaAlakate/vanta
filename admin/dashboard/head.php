@@ -1,6 +1,10 @@
+<link rel="apple-touch-icon" sizes="180x180" href="../../pic/logo-web/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../../pic/logo-web/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../../pic/logo-web/favicon-16x16.png">
+<link rel="manifest" href="../../pic/logo-web/site.webmanifest">
+
 <!-- Google Font: Source Sans Pro -->
-<link rel="stylesheet"
-href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
 <!-- Font Awesome -->
 <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
 <!-- Ionicons -->
@@ -51,7 +55,7 @@ href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&d
     });
 </script>
 <script>
-    $(document).ready(function(){
+    $(document).ready(function () {
         // Your other scripts
 
         // Show modals if needed
@@ -62,6 +66,3 @@ href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&d
         // Add more modal show scripts if necessary
     });
 </script>
-
-
-

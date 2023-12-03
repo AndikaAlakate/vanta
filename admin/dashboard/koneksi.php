@@ -1,12 +1,14 @@
 <?php
     $server = 'localhost';
-    $user = 'root';
-    $pass = '';
-    $db = 'vanta';
+    $user = 'gadakst2_andikaalakate';
+    $pass = 'mraouart46710_~';
+    $db = 'gadakst2_vanta';
 
     $conn = new mysqli($server, $user, $pass, $db);
 
     if ($conn->connect_error) {
         die('Koneksi Gagal : '. $conn->connect_error);
+    } else {
+        echo '<script>alert("Berhasil");</script>';
     }
 ?>
