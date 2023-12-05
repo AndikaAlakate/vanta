@@ -6,7 +6,7 @@
                 <p>Jangan ragu untuk menjelajahi koleksi novel terjemahan kami. Jadikan membaca sebagai kebiasaan
                     dan
                     temukan dunia baru melalui kata-kata!</p>
-                <a class="btn btn-primary" href="novel/">Jelajahi Novel</a>
+                <a class="btn btn-primary" href="#">Jelajahi Novel</a>
             </div>
         </div>
     </div>
