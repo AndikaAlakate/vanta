@@ -6,15 +6,15 @@
 <!-- Head End -->
 
 <body class="home">
+    
     <!-- Navbar -->
-    <?php include 'assets/front-end/section/beranda/nb.php'; ?>    
+    <?php include 'assets/front-end/section/beranda/navbar.php'; ?>    
     <!-- End Navbar -->
-
+    
     <!-- Heroes Section -->
     <?php include 'assets/front-end/carousel/beranda.php'; ?>
     <!-- End Heroes Section -->
-
-
+    
     <!-- Konten Vanta Translation - Novel Indo -->
     <section class="container mt-5">
         <div class="row row-cols-1 md-5">
