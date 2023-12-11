@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md navbar-dark sticky-top shadow bg-color rounded-bottom-2 my-navbar">
+<nav class="navbar navbar-expand-md navbar-dark fixed-top shadow-md bg-color rounded-bottom-2 border-bottom my-navbar">
     <div class="container">
         <a class="navbar-brand" href="#" data-tilt> <img
                 src="./pic/logo-web/VantaTransIndoNovel1.png"
@@ -9,9 +9,9 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header bg-primary shadow">
+            <div class="offcanvas-header bg-primary shadow-lg border-bottom">
                 <h5 class="offcanvas-title text-light" id="offcanvasNavbarLabel">VANTA Translation - Novel Indo</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                <button type="button" class="btn-close bg-light shadow" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body bg-color">
                 <ul class="navbar-nav ms-auto">

@@ -5,7 +5,7 @@
 <?php include 'assets/front-end/section/beranda/head.php'; ?>    
 <!-- Head End -->
 
-<body class="home">
+<body class="min-vh-100">
     
     <!-- Navbar -->
     <?php include 'assets/front-end/section/beranda/navbar.php'; ?>    
@@ -16,7 +16,7 @@
     <!-- End Heroes Section -->
     
     <!-- Konten Vanta Translation - Novel Indo -->
-    <section class="container mt-5">
+    <section class="container mt-5 min-vh-100">
         <div class="row row-cols-1 md-5">
             <!-- Sidebar Kiri -->
             <div class="col-md-3">

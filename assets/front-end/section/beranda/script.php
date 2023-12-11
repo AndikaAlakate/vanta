@@ -9,3 +9,5 @@
 <script type="text/javascript" src="assets/js/back-to-top.js"></script>
 <script type="text/javascript" src="assets/js/dark-mode.js"></script>
 <script type="text/javascript" src="assets/js/hide-show.js"></script>
+
+<script src="assets/plugins/countdown/js/simplyCountdown.min.js"></script>

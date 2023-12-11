@@ -24,6 +24,7 @@ body {
 
 .my-navbar .offcanvas {
     height: 100vh;
+    font-size: 2.5rem;
 }
 
 .my-navbar .navbar-brand,
