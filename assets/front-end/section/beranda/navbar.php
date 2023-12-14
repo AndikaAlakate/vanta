@@ -41,7 +41,7 @@
                     </li>
                     <li class="nav-item my-auto">
                         <button class="btn btn-outline-light btn-sm" type="button" data-bs-toggle="modal"
-                            data-bs-target="#loginModal">Login</button>
+                            data-bs-target="#loginModal">LOGIN</button>
                     </li>
                 </ul>
             </div>

@@ -15,4 +15,8 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
     <link rel="stylesheet" href="assets/plugins/countdown/css/simplyCountdown.theme.default.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fakeLoader.js/1.1.0/fakeLoader.css"
+        integrity="sha512-T9RaysM7SOOcLWxh80AT9XOOxDIhhdt64IAnVLRCcl8wPFzL7dmHxl5J7XLbo2cnNzTS1lAjxVQ0uvBDstah7A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>

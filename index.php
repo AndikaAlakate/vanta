@@ -6,6 +6,8 @@
 <!-- Head End -->
 
 <body class="min-vh-100">
+
+    <div class="fakeLoader"></div>
     
     <!-- Navbar -->
     <?php include 'assets/front-end/section/beranda/navbar.php'; ?>    

@@ -11,3 +11,16 @@
 <script type="text/javascript" src="assets/js/hide-show.js"></script>
 
 <script src="assets/plugins/countdown/js/simplyCountdown.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fakeLoader.js/1.1.0/fakeLoader.min.js"
+    integrity="sha512-pH8YdfmyjuBq0Gw/w7pdbwa2ioO/ditfNSfTzai0LWbbpejBnwdw15eatRCCmyexiw409/+gjAzggMXuJZchOw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+    $(document).ready(function () {
+        $.fakeLoader({
+            bgColor: '#2ecc71',
+            spinner:"spinner1"
+        });
+    });
+</script>
