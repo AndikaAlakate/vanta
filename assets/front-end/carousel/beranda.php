@@ -23,70 +23,70 @@
     </div>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="./pic/background/Background-1.jpeg" class="d-block w-100" alt="...">
+            <img src="./pic/background/background-1.webp" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <h5>First slide label</h5>
                 <p>Some representative placeholder content for the first slide.</p>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="./pic/background/Background-2.png" class="d-block w-100" alt="...">
+            <img src="./pic/background/background-2.webp" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <h5>Second slide label</h5>
                 <p>Some representative placeholder content for the second slide.</p>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="./pic/background/Background-3.png" class="d-block w-100" alt="...">
+            <img src="./pic/background/background-3.webp" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <h5>Third slide label</h5>
                 <p>Some representative placeholder content for the third slide.</p>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="./pic/background/Background-4.png" class="d-block w-100" alt="...">
+            <img src="./pic/background/background-4.webp" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <h5>Third slide label</h5>
                 <p>Some representative placeholder content for the third slide.</p>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="./pic/background/Background-5.png" class="d-block w-100" alt="...">
+            <img src="./pic/background/background-5.webp" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <h5>Third slide label</h5>
                 <p>Some representative placeholder content for the third slide.</p>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="./pic/background/Background-6.png" class="d-block w-100" alt="...">
+            <img src="./pic/background/background-6.webp" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <h5>Third slide label</h5>
                 <p>Some representative placeholder content for the third slide.</p>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="./pic/background/Background-7.png" class="d-block w-100" alt="...">
+            <img src="./pic/background/background-7.webp" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <h5>Third slide label</h5>
                 <p>Some representative placeholder content for the third slide.</p>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="./pic/background/Background-8.png" class="d-block w-100" alt="...">
+            <img src="./pic/background/background-8.webp" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <h5>Third slide label</h5>
                 <p>Some representative placeholder content for the third slide.</p>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="./pic/background/Background-9.png" class="d-block w-100" alt="...">
+            <img src="./pic/background/background-9.webp" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <h5>Third slide label</h5>
                 <p>Some representative placeholder content for the third slide.</p>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="./pic/background/Background-10.png" class="d-block w-100" alt="...">
+            <img src="./pic/background/background-10.webp" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <h5>Third slide label</h5>
                 <p>Some representative placeholder content for the third slide.</p>
