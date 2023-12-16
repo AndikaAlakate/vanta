@@ -16,15 +16,13 @@
     }
     function tambahAdmin($conn, $newEmail, $newUsername, $newPassword, $newLevel)
     {
-        $newPassword = md5($newPassword);
-        $sqlInsert = "INSERT INTO admin (email, username, password, level) VALUES ('$newEmail', '$newUsername', '$newPassword', '$newLevel')";
+        $sqlInsert = "INSERT INTO admin (email, username, password, level) VALUES ('$newEmail', '$newUsername', MD5('$newPassword'), '$newLevel')";
         return $conn->query($sqlInsert);
     }
 
     function updateAdmin($conn, $editedEmail, $editedUsername, $editedPassword, $editedLevel)
     {
-        $editedPassword = md5($editedPassword);
-        $sqlUpdate = "UPDATE admin SET email = '$editedEmail', username = '$editedUsername', password = '$editedPassword', level = '$editedLevel' WHERE username = '$editedUsername'";
+        $sqlUpdate = "UPDATE admin SET email = '$editedEmail', username = '$editedUsername', password = MD5('$editedPassword'), level = '$editedLevel' WHERE username = '$editedUsername'";
         return $conn->query($sqlUpdate);
     }
     
@@ -32,7 +30,7 @@
         $newUsername = $_POST['new_username'];
         $newEmail = $_POST['new_email'];
         $newLevel = $_POST['new_level'];
-        $newPassword = md5($_POST['new_password']);
+        $newPassword = $_POST['new_password'];
 
         // Lakukan validasi data jika diperlukan
 
@@ -50,7 +48,7 @@
                                 <p>Admin baru berhasil ditambahkan.</p>
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="window.location.href=\'index.php\'">Tutup</button>
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="window.location.href=\'\'">Tutup</button>
                             </div>
                         </div>
                     </div>
@@ -74,7 +72,7 @@
                                 <p>Gagal menambahkan admin baru: ' . $conn->error . '</p>
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="window.location.href=\'index.php\'">Tutup</button>
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="window.location.href=\'\'">Tutup</button>
                             </div>
                         </div>
                     </div>
@@ -90,7 +88,7 @@
     if (isset($_POST['edited_email']) && isset($_POST['edited_username']) && isset($_POST['edited_password']) && isset($_POST['edited_level'])) {
         $editedEmail = $_POST['edited_email'];
         $editedUsername = $_POST['edited_username'];
-        $editedPassword = md5($_POST['edited_password']);
+        $editedPassword = $_POST['edited_password'];
         $editedLevel = $_POST['edited_level'];
 
         if (updateAdmin($conn, $editedEmail, $editedUsername, $editedPassword, $editedLevel)) {
