@@ -9,7 +9,7 @@
     if ($resultcount) {
         // Ambil data hasil query
         $rowcount = mysqli_fetch_assoc($resultcount);
-        $totalAdmin = $row['email'];
+        $totalAdmin = $rowcount['email'];
     } else {
         // Tampilkan pesan kesalahan jika query gagal
         $totalAdmin = "Error";
