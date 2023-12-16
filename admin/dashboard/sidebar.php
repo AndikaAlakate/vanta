@@ -4,7 +4,7 @@ $result = $conn->query($adm);
 
 while ($row = $result->fetch_assoc()) {
     // Lakukan sesuatu dengan data dalam $row
-    $Nama = $row["username"];
+    $Nama = $row["nama"];
 }
 ?>
 <!-- Main Sidebar Container -->
