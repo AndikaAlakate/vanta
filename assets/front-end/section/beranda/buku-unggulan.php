@@ -9,7 +9,7 @@
             <div class="col-sm-4 mb-3">
                 <div class="card shadow">
                     <div class="card-img">
-                        <img src="e-book/e-book-8.png" alt="Buku 1" class="img-fluid card-img-top">
+                        <img src="e-book/e-book-8.webp" alt="Buku 1" class="img-fluid card-img-top">
                     </div>
                     <div class="card-body">
                         <h4>Judul Buku 1</h4>
@@ -22,7 +22,7 @@
             <div class="col-sm-4 mb-3">
                 <div class="card shadow">
                     <div class="card-img">
-                        <img src="e-book/e-book-10.jpg" alt="Buku 1" class="img-fluid card-img-top">
+                        <img src="e-book/e-book-10.webp" alt="Buku 1" class="img-fluid card-img-top">
                     </div>
                     <div class="card-body">
                         <h4>Judul Buku 1</h4>
@@ -35,7 +35,7 @@
             <div class="col-sm-4 mb-3">
                 <div class="card shadow">
                     <div class="card-img">
-                        <img src="e-book/e-book-11.png" alt="Buku 1" class="img-fluid card-img-top">
+                        <img src="e-book/e-book-11.webp" alt="Buku 1" class="img-fluid card-img-top">
                     </div>
                     <div class="card-body">
                         <h4>Judul Buku 1</h4>
@@ -48,7 +48,7 @@
             <div class="col-sm-4 mb-3">
                 <div class="card shadow">
                     <div class="card-img">
-                        <img src="e-book/e-book-13.png" alt="Buku 1" class="img-fluid card-img-top">
+                        <img src="e-book/e-book-13.webp" alt="Buku 1" class="img-fluid card-img-top">
                     </div>
                     <div class="card-body">
                         <h4>Judul Buku 1</h4>
@@ -61,7 +61,7 @@
             <div class="col-sm-4 mb-3">
                 <div class="card shadow">
                     <div class="card-img">
-                        <img src="e-book/e-book-14.jpg" alt="Buku 1" class="img-fluid card-img-top">
+                        <img src="e-book/e-book-14.webp" alt="Buku 1" class="img-fluid card-img-top">
                     </div>
                     <div class="card-body">
                         <h4>Judul Buku 1</h4>
@@ -74,7 +74,7 @@
             <div class="col-sm-4 mb-3">
                 <div class="card shadow">
                     <div class="card-img">
-                        <img src="e-book/e-book-15.jpg" alt="Buku 1" class="img-fluid card-img-top">
+                        <img src="e-book/e-book-15.webp" alt="Buku 1" class="img-fluid card-img-top">
                     </div>
                     <div class="card-body">
                         <h4>Judul Buku 1</h4>

@@ -17,14 +17,19 @@ body {
     background-color: #0e3682;
 }
 
-.btn-primary {
-    background-color: #dc3545;
-    border-color: #dc3545;
+
+.my-navbar .offcanvas {
+    height: 100vh;
 }
 
-.btn-primary:hover {
-    background-color: #c82333;
-    border-color: #bd2130;
+.my-navbar .navbar-brand,
+.my-navbar .offcanvas-title {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.my-navbar .nav-link {
+    text-transform: uppercase;
 }
 
 /* Buku Unggulan */
