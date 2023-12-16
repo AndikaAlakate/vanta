@@ -52,9 +52,9 @@
         <!-- <?php include 'add_users.php'; ?> -->
 
         <!-- Tabel Admin -->
-        <?php include 't_admin.php'; ?>
-        <?php include 'e_admin.php'; ?>
-        <?php include 'add_admin.php'; ?>
+        <!-- <?php include 't_admin.php'; ?> -->
+        <!-- <?php include 'e_admin.php'; ?> -->
+        <!-- <?php include 'add_admin.php'; ?> -->
 
       </section>
     </div>
