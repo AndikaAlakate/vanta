@@ -41,7 +41,6 @@ while ($row = $result->fetch_assoc()) {
                 </div>
             </div>
         </div>
-
         <!-- Sidebar Menu -->
         <nav class="mt-2">
             <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
@@ -56,7 +55,7 @@ while ($row = $result->fetch_assoc()) {
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="./" class="nav-link">
+                            <a href="./" class="nav-link dash">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Dashboard</p>
                             </a>
@@ -80,6 +79,7 @@ while ($row = $result->fetch_assoc()) {
                     </ul>
                 </li>
                 <!-- <li class="nav-item">
+
             <a href="pages/widgets.html" class="nav-link">
             <i class="nav-icon fas fa-th"></i>
             <p>
