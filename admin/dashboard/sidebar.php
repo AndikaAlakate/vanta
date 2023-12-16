@@ -55,13 +55,13 @@ while ($row = $result->fetch_assoc()) {
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="./" class="nav-link">
+                            <a href="./" class="nav-link" onclick="handleNavClick()">
                                 <i class="fas fa-circle nav-icon"></i>
                                 <p>Dashboard</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="contacts.php" class="nav-link">
+                            <a href="contacts.php" class="nav-link" onclick="handleNavClick()">
                                 <i class="nav-icon fas fa-circle"></i>
                                 <p>
                                     Contacts
@@ -69,7 +69,7 @@ while ($row = $result->fetch_assoc()) {
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="logout.php" class="nav-link">
+                            <a href="logout.php" class="nav-link" onclick="handleNavClick()">
                                 <i class="nav-icon fas fa-circle"></i>
                                 <p>
                                     Logout
