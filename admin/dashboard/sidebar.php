@@ -61,7 +61,7 @@ while ($row = $result->fetch_assoc()) {
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="./" class="nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'admin.php' ? 'active' : ''; ?>">
+                            <a href="admin.php" class="nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'admin.php' ? 'active' : ''; ?>">
                                 <i class="fas fa-circle nav-icon"></i>
                                 <p>Admin</p>
                             </a>
