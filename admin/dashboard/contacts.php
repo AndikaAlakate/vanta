@@ -15,9 +15,7 @@
     <div class="wrapper">
 
         <!-- Preloader -->
-        <div class="preloader flex-column justify-content-center align-items-center">
-            <img class="animation__shake" src="dist/img/gadakstdlogo.png" alt="GADAK Logo" height="300" width="300">
-        </div>
+        <?php include 'preloader.php'; ?>
 
         <!-- Navbar -->
         <?php include 'navbar.php'; ?>
@@ -52,7 +50,7 @@
         </div>
         <!-- /.content-wrapper -->
         <footer class="main-footer">
-            <strong>Copyright &copy; 2023 <a href="https://gadakstd.my.id">GADAK Studio</a>.</strong>
+            <strong>Copyright &copy; 2023 <a href="https://vantatranslation.site">VANTA Translation</a>.</strong>
             All rights reserved.
             <div class="float-right d-none d-sm-inline-block">
                 <b>Version</b> 1.0.0
