@@ -86,7 +86,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-lg-5">
+            <div class="col-sm-6">
               <div class="card bg-gradient-success">
                 <div class="card-header border-0 ui-sortable-handle" style="cursor: move;">
                   <h3 class="card-title">
