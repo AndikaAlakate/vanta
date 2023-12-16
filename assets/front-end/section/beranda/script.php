@@ -1,3 +1,4 @@
+<script src="/assets/plugins/preloader/preloader.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
     crossorigin="anonymous"></script>
@@ -16,11 +17,4 @@
     integrity="sha512-pH8YdfmyjuBq0Gw/w7pdbwa2ioO/ditfNSfTzai0LWbbpejBnwdw15eatRCCmyexiw409/+gjAzggMXuJZchOw=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-<script>
-    $(document).ready(function () {
-        $.fakeLoader({
-            bgColor: '#2ecc71',
-            spinner:"spinner1"
-        });
-    });
-</script>
+    

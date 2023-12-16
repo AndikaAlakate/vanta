@@ -5,9 +5,11 @@
 <?php include 'assets/front-end/section/beranda/head.php'; ?>    
 <!-- Head End -->
 
-<body class="min-vh-100">
+<body class="min-vh-100 loading">
 
-    <div class="fakeLoader"></div>
+    <div class="preloader">
+        <div class="spinner"></div>
+    </div>
     
     <!-- Navbar -->
     <?php include 'assets/front-end/section/beranda/navbar.php'; ?>    

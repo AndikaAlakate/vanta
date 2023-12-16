@@ -2,7 +2,7 @@
 <div class="container-fluid" id="admin">
     <div class="row">
         <div class="col-12">
-            <div class="card">
+            <div class="card shadow">
                 <div class="card-header">
                     <h3 class="card-title">Data Admin yang ada</h3>
                     <!-- Tombol "Tambah Admin" -->
