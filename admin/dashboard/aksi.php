@@ -105,7 +105,7 @@
                                 <p>Data berhasil diperbarui.</p>
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="window.location.href=\'index.php\'">Tutup</button>
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="window.location.href=\'\'">Tutup</button>
                             </div>
                         </div>
                     </div>
@@ -129,7 +129,7 @@
                                 <p>Gagal memperbarui data: ' . $conn->error . '</p>
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="window.location.href=\'index.php\'">Tutup</button>
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="window.location.href=\'\'">Tutup</button>
                             </div>
                         </div>
                     </div>
