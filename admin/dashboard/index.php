@@ -55,7 +55,7 @@
                   <p>Jumlah Buku</p>
                 </div>
                 <div class="icon">
-                  <i class="ion ion-book-outline"></i>
+                  <i class="ion ion-book"></i>
                 </div>
                 <a href="#" class="small-box-footer">Selengkapnya <i class="fas fa-arrow-circle-right"></i></a>
               </div>
