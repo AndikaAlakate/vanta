@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php include('koneksi.php');?>
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -45,7 +46,22 @@
       </div>
       <!-- /.content-header -->
       <section class="content">
-
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-3 col-6">
+              <div class="small-box bg-warning">
+                <div class="inner">
+                  <h3>44</h3>
+                  <p>User Registrations</p>
+                </div>
+                <div class="icon">
+                  <i class="ion ion-person-add"></i>
+                </div>
+                <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </div>
     <!-- /.content-wrapper -->
@@ -56,7 +72,7 @@
         <b>Version</b> 1.0.0
       </div>
     </footer>
-    
+
 
     <!-- Control Sidebar -->
     <aside class="control-sidebar control-sidebar-dark">
@@ -65,7 +81,7 @@
     <!-- /.control-sidebar -->
   </div>
   <!-- ./wrapper -->
-  
+
   <!-- Scripts -->
   <?php include 'script.php'; ?>
 </body>
