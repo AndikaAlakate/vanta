@@ -1,6 +1,19 @@
 <?php
     require 'koneksi.php'; // Pastikan path koneksi.php sesuai
 
+    // Query untuk menghitung jumlah admin
+    $sqlcount = "SELECT COUNT(*) as email FROM admin";
+    $resultcount = mysqli_query($conn, $sqlcount);
+
+    // Periksa apakah query berhasil dijalankan
+    if ($resultcount) {
+        // Ambil data hasil query
+        $rowcount = mysqli_fetch_assoc($resultcount);
+        $totalAdmin = $row['email'];
+    } else {
+        // Tampilkan pesan kesalahan jika query gagal
+        $totalAdmin = "Error";
+    }
     function tambahAdmin($conn, $newEmail, $newUsername, $newPassword, $newLevel)
     {
         $newPassword = md5($newPassword);
