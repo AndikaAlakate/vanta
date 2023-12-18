@@ -1,7 +1,15 @@
 document.addEventListener("DOMContentLoaded", function () {
-    // Simulate a delay for demonstration purposes
+    // Menonaktifkan scroll saat preloader ditampilkan
+    document.body.style.overflow = "hidden";
+
+    // Simulasi delay untuk demonstrasi
     setTimeout(function () {
-        // Remove the 'loading' class from the body
+        // Menghapus class "loading" dari body
         document.body.classList.remove("loading");
-    }, 2000); // You can adjust the delay as needed
+
+        // Mengaktifkan kembali scroll setelah selesai loading
+        document.body.style.overflow = "auto";
+
+        window.scrollTo(0, 0);
+    }, 2000); // Sesuaikan delay sesuai kebutuhan
 });

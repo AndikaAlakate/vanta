@@ -1,4 +1,6 @@
 <head>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8647887351125998"
+    crossorigin="anonymous"></script>
     <title>Vanta Translation - Novel Indo</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
