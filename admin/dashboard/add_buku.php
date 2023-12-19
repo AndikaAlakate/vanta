@@ -92,10 +92,10 @@
                                     <textarea class="form-control" id="sinopsis" name="sinopsis" placeholder="Masukkan sinopsis buku"></textarea>
                                 </div>
 
-                                <div class="form-group">
+                                <!-- <div class="form-group">
                                     <label for="ilustrasi">Ilustrasi</label>
                                     <input type="file" class="form-control-file" id="ilustrasi" name="ilustrasi" accept="image/*">
-                                </div>
+                                </div> -->
 
                                 <button type="submit" class="btn btn-primary">Simpan</button>
                             </form>
