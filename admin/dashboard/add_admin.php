@@ -10,7 +10,7 @@
             </div>
             <div class="modal-body dark-mode">
                 <!-- Form tambah admin -->
-                <form id="addAdminForm" method="post">
+                <form id="addAdminForm" method="post" enctype="multipart/form-data">
                     <!-- Tambahkan elemen input untuk data admin yang ingin ditambahkan -->
                     <div class="form-group">
                         <label for="newLevel">Level</label>
@@ -27,6 +27,10 @@
                     <div class="form-group">
                         <label for="newPassword">Password</label>
                         <input type="password" class="form-control" id="newPassword" name="new_password" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="newFoto">Foto Admin</label>
+                        <input type="file" class="form-control-file" id="newFoto" name="new_foto">
                     </div>
                 </form>
             </div>

@@ -30,6 +30,7 @@
                                                 <th>Password</th>
                                                 <th>Email</th>
                                                 <th>Level</th>
+                                                <th>Foto</th>
                                                 <th>Actions</th>
                                             </tr>
                                         </thead>
@@ -45,7 +46,7 @@
 
                                             if ($result->num_rows > 0) {
                                                 while ($row = $result->fetch_assoc()) {
-                                                    echo '<tr class="text-center">';
+                                                    echo '<tr class="text-center align-middle m-auto">';
                                                     echo '<td>' . $no++ . '</td>';
                                                     echo "<td>{$row['username']}</td>";
 
@@ -54,6 +55,20 @@
 
                                                     echo "<td>{$row['email']}</td>";
                                                     echo "<td>{$row['level']}</td>";
+
+                                                    echo '<td class="text-center align-middle">';
+                                                    if (!empty($row["foto"])) {
+                                                        echo '<div class="d-flex justify-content-center align-items-center flex-wrap rounded-circle m-auto" style="width: 4rem; height: 4rem; overflow: hidden; background-image: url(../../img/users/' . $row["foto"] . ');">
+                                                                <img src="../../img/users/' . $row["foto"] . '" alt="Foto Admin" class="img-fluid justify-content-center d-flex" style="max-width: 4rem; max-height: 4rem;">
+                                                            </div>';
+                                                    } else {
+                                                        echo '<div class="d-flex justify-content-center align-items-center flex-wrap rounded-circle m-auto" style="width: 4rem; height: 4rem; overflow: hidden; background-image: url(../../img/users/user.jpg);">
+                                                                <img src="../../img/users/user.jpg" alt="Foto Admin" class="img-fluid justify-content-center d-flex" style="max-width: 4rem; max-height: 4rem;">
+                                                            </div>';
+                                                    }
+                                                    echo '</td>';
+
+
 
                                                     echo '<td class="project-actions text-center">';
                                                     echo '<div class="btn-group" role="group">';
@@ -78,6 +93,7 @@
                                                 <th>Password</th>
                                                 <th>Email</th>
                                                 <th>Level</th>
+                                                <th>Foto</th>
                                                 <th>Actions</th>
                                             </tr>
                                         </tfoot>
@@ -108,7 +124,7 @@
                                             <p>Data berhasil dihapus.</p>
                                         </div>
                                         <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="window.location.href=\'index.php\'">Tutup</button>
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="window.location.href=\'admin.php\'">Tutup</button>
                                         </div>
                                     </div>
                                 </div>
@@ -132,7 +148,7 @@
                                             <p>Gagal menghapus data: ' . $conn->error . '</p>
                                         </div>
                                         <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="window.location.href=\'index.php\'">Tutup</button>
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="window.location.href=\'admin.php\'">Tutup</button>
                                         </div>
                                     </div>
                                 </div>

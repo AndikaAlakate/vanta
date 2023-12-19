@@ -14,9 +14,9 @@
         // Tampilkan pesan kesalahan jika query gagal
         $totalAdmin = "Error";
     }
-    function tambahAdmin($conn, $newEmail, $newUsername, $newPassword, $newLevel)
+    function tambahAdmin($conn, $newEmail, $newUsername, $newPassword, $newLevel, $newFoto)
     {
-        $sqlInsert = "INSERT INTO admin (email, username, password, level) VALUES ('$newEmail', '$newUsername', MD5('$newPassword'), '$newLevel')";
+        $sqlInsert = "INSERT INTO admin (email, username, password, level, foto) VALUES ('$newEmail', '$newUsername', MD5('$newPassword'), '$newLevel', '$newFoto')";
         return $conn->query($sqlInsert);
     }
 
@@ -32,9 +32,34 @@
         $newLevel = $_POST['new_level'];
         $newPassword = $_POST['new_password'];
 
+        // Handle file upload if a file is provided
+        if (isset($_FILES['new_foto']) && $_FILES['new_foto']['error'] === UPLOAD_ERR_OK) {
+            $targetDir = "../../img/users/";
+            $fileName = basename($_FILES["new_foto"]["name"]);
+            $targetFilePath = $targetDir . uniqid() . '_' . $fileName;
+
+            // Allow certain file formats
+            $allowedExtensions = array("jpg", "jpeg", "png", "gif");
+            $fileType = pathinfo($targetFilePath, PATHINFO_EXTENSION);
+
+            if (in_array($fileType, $allowedExtensions)) {
+                // Upload file to server
+                if (move_uploaded_file($_FILES["new_foto"]["tmp_name"], $targetFilePath)) {
+                    $newFoto = $targetFilePath; // Save the full path to the file
+                } else {
+                    echo '<script>alert("Failed to upload user photo.");</script>';
+                }
+            } else {
+                echo '<script>alert("Invalid file format. Please choose an image file (jpg, jpeg, png, gif).");</script>';
+                header('Location: index.php');
+            }
+        } else {
+            $newFoto = ''; // No photo uploaded
+        }
+
         // Lakukan validasi data jika diperlukan
 
-        if (tambahAdmin($conn, $newEmail, $newUsername, $newPassword, $newLevel)) {
+        if (tambahAdmin($conn, $newEmail, $newUsername, $newPassword, $newLevel, $newFoto)) {
             echo '<div class="modal" tabindex="-1" role="dialog" id="newSuccessModal">
                     <div class="modal-dialog modal-dialog-centered" role="document">
                         <div class="modal-content">

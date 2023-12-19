@@ -79,6 +79,7 @@
         });
 
         $('#genre').select2();
+        $('#newLevel').select2();
     }); 
 </script>
 <!-- overlayScrollbars -->
