@@ -42,32 +42,115 @@
             </div>
         </div>
         <!-- Sidebar Menu -->
+        <?php
+        function isPageActive($activePages) {
+            $currentPage = basename($_SERVER['PHP_SELF']);
+            return in_array($currentPage, $activePages) ? 'active' : '';
+        }
+
+        function isMenuOpen($OpenMenu) {
+            $MenuOpen = basename($_SERVER['PHP_SELF']);
+            return in_array($MenuOpen, $OpenMenu) ? 'menu-open' : '';
+        }
+        ?>
         <nav class="mt-2">
             <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                 <!-- Add icons to the links using the .nav-icon class with font-awesome or any other icon font library -->
                 <li class="nav-item menu-open">
                     <a href="#" class="nav-link active">
-                        <i class="nav-icon fas fa-list-ul"></i>
+                        <i class="nav-icon bi bi-house-door-fill"></i>
                         <p>
                             VANTA Translation
-                            <i class="right fas fa-angle-left"></i>
+                            <i class="right fas fa-angle-left pr-1 pl-1"></i>
                         </p>
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="./" class="nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'index.php' ? 'active' : ''; ?>">
+                            <a href="./" class="nav-link <?php echo isPageActive(['index.php']); ?>">
                                 <i class="fas fa-tachometer-alt nav-icon"></i>
                                 <p>Dashboard</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="admin.php" class="nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'admin.php' ? 'active' : ''; ?>">
+                            <a href="admin.php" class="nav-link <?php echo isPageActive(['admin.php']); ?>">
                                 <i class="fas fa-user-secret nav-icon"></i>
                                 <p>Admin</p>
                             </a>
                         </li>
+                        <li class="nav-item <?php echo isMenuOpen(['buku.php', 'add_buku.php', 'e_buku.php', 'd_buku.php']); ?>">
+                            <a href="#"
+                                class="nav-link <?php echo isPageActive(['buku.php', 'add_buku.php', 'e_buku.php', 'd_buku.php']); ?>">
+                                <i class="nav-icon fas fa-book"></i>
+                                <p>
+                                    Daftar Buku
+                                    <i class="right fas fa-angle-left"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="./buku.php" class="nav-link <?php echo isPageActive(['buku.php']); ?>">
+                                        <i class="fas fa-book-reader nav-icon"></i>
+                                        <p>Buku</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="./add_buku.php" class="nav-link <?php echo isPageActive(['add_buku.php']); ?>">
+                                        <i class="fas fa-plus nav-icon"></i>
+                                        <p>Tambah</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="./e_buku.php" class="nav-link <?php echo isPageActive(['e_buku.php']); ?>">
+                                        <i class="fas fa-edit nav-icon"></i>
+                                        <p>Edit</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="./d_buku.php" class="nav-link <?php echo isPageActive(['d_buku.php']); ?>">
+                                        <i class="bi bi-trash nav-icon pl-1 pr-1"></i>
+                                        <p >Hapus</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item <?php echo isMenuOpen(['chapter.php', 'add_chapter.php', 'e_chapter.php', 'd_chapter.php']); ?>">
+                            <a href="#"
+                                class="nav-link <?php echo isPageActive(['chapter.php', 'add_chapter.php', 'e_chapter.php', 'd_chapter.php']); ?>">
+                                <i class="nav-icon fas fa-book-dead"></i>
+                                <p>
+                                    Daftar Chapter
+                                    <i class="right fas fa-angle-left"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="./chapter.php" class="nav-link <?php echo isPageActive(['chapter.php']); ?>">
+                                        <i class="fas fa-book-reader nav-icon"></i>
+                                        <p>Chapter</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="./add_chapter.php" class="nav-link <?php echo isPageActive(['add_chapter.php']); ?>">
+                                        <i class="fas fa-plus nav-icon"></i>
+                                        <p>Tambah</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="./e_chapter.php" class="nav-link <?php echo isPageActive(['e_chapter.php']); ?>">
+                                        <i class="fas fa-edit nav-icon"></i>
+                                        <p>Edit</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="./d_chapter.php" class="nav-link <?php echo isPageActive(['d_chapter.php']); ?>">
+                                        <i class="bi bi-trash nav-icon pl-1 pr-1"></i>
+                                        <p >Hapus</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
                         <li class="nav-item">
-                            <a href="contacts.php" class="nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'contacts.php' ? 'active' : ''; ?>">
+                            <a href="contacts.php" class="nav-link <?php echo isPageActive(['contacts.php']); ?>">
                                 <i class="nav-icon fas fa-users"></i>
                                 <p>
                                     Contacts
